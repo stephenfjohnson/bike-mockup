@@ -1,0 +1,120 @@
+body {
+	background-color: #F4F1E0;
+	padding-top: 40px;
+	font-family: 'Quattrocento Sans', sans-serif;
+}
+
+.span3 {
+	background-color: transparent;
+	height: 200px;
+
+}
+
+.span4 {
+	height: 100px;
+	background-color: #fff;
+}
+
+.span9 {
+	background-color: #transparent;
+	height: 200px;
+
+}
+
+.span12 {
+	background-color: transparent;
+}
+
+img.bike-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent; 
+	height: 458px;
+}
+
+
+.navbar .navbar-inner {
+	background-image: -webkit-linear-gradient(top, #860102, #840202);
+	min-height: 25px;
+	border-bottom: solid 1px #fff;
+	outline: solid 3px #840202;]
+
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+
+/* Navigation */
+
+
+		#nav{
+			border:0px solid #ccc;
+			border-width:0px 0;
+			list-style:none;
+			margin-top: 80px;
+			padding:0;
+			text-align: right;
+
+
+		}
+		#nav li{
+			position:relative;
+			display:inline;
+			background-color: #AC9A8C;
+			padding: 5px;
+			margin: 5px;
+			box-shadow: inset 1px 1px 5px #888;
+
+
+		}
+		#nav a{
+			display:inline-block;
+			padding:10px;
+		}
+		#nav ul{
+			position:absolute;
+			/*top:100%; Uncommenting this makes the dropdowns work in IE7 but looks a little worse in all other browsers. Your call. */
+			left:-9999px;
+			margin:0;
+			padding:0;
+			text-align:left;
+
+		}
+		#nav ul li{
+			display:block;
+		}
+		#nav li:hover ul{
+			left:0;
+		}
+		#nav li:hover a{
+			text-decoration:none;
+			background:transparent;
+			color: #333;
+		}
+		#nav li:hover ul a{
+			text-decoration:none;
+			background:none;
+		}
+		#nav li:hover ul a:hover{
+			text-decoration:underline;
+			background:#f1f1f1;
+		}
+		#nav ul a{
+			white-space:nowrap;
+			display:block;
+			border-bottom:1px solid #ccc;
+		}
+		a{
+			color:#fff;
+			text-decoration:none;
+			font-weight:bold;
+			background-color: transparent;
+		}
+		a:hover{
+			text-decoration:underline;
+			background-color: transparent;
+		}
+
+/*	End Navigation */
